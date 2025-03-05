@@ -1,3 +1,6 @@
+# Recomendación para el deploy.
+Hacer un npx cds build en la carpeta de cadata cap 
+
 # Getting Started
 
 Welcome to your new project.
@@ -24,5 +27,3 @@ File or Folder | Purpose
 
 Learn more at https://cap.cloud.sap/docs/get-started/.
 
-# Recomendación para el deploy.
-Hacer un npx cds build en la carpeta de cadata cap 
