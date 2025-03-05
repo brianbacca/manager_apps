@@ -1,0 +1,27 @@
+{
+  "xsappname": "manager_apps-${org}-${space}",
+  "tenant-mode": "dedicated",
+  "scopes": [
+    {
+      "name": "$XSAPPNAME.CustomersView",
+      "description": "Scope for viewing customer data"
+    },
+    {
+      "name": "$XSAPPNAME.SuppliersView",
+      "description": "Scope for viewing supplier data"
+    }
+  ],
+  "role-templates": [
+    {
+      "name": "CustomersViewer",
+      "description": "Role for accessing customer data",
+      "scope-references": ["$XSAPPNAME.CustomersView"]
+    },
+    {
+      "name": "SuppliersViewer",
+      "description": "Role for accessing supplier data",
+      "scope-references": ["$XSAPPNAME.SuppliersView"]
+    }
+  ],
+  "authorities-inheritance": false
+}
